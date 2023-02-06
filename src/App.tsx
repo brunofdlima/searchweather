@@ -54,12 +54,14 @@ const App = () => {
           <Title>Previsão do tempo para:</Title>
           <div>
             <Input
+              id="entrada"
               classname="searchCity"
               value={cidade}
+              placeholder="Digite o local desejado. Ex: São Paulo"
               onChange={handleChange}
             />
             <Button onClick={handleSearch}>
-              <GoSearch style={{margin: "5px 1px 0 0"}}/>
+              <GoSearch style={{ margin: "5px 1px 0 0" }} />
             </Button>
           </div>
         </Before>
@@ -67,6 +69,7 @@ const App = () => {
         <Response>
           {previsao ? (
             <div>
+              <h1>{}</h1>
               <ResponseTitle>{previsao.weather[0].description}</ResponseTitle>
               <ResponseTemp>
                 <Left>
