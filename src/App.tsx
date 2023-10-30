@@ -38,6 +38,7 @@ const App = () => {
         },
       })
       .then((data:any) => {
+        console.log(data)
         setPrevisao(data.data);
       });
   };
