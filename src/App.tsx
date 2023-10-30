@@ -37,7 +37,7 @@ const App = () => {
           lang: "pt_br",
         },
       })
-      .then((data) => {
+      .then((data:any) => {
         setPrevisao(data.data);
       });
   };

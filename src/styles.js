@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import img from './pictures/backtemp.jpg';
 
 export const Content = styled.div`
-background-image: url(${img});
 height: 100vh;
 background-size: cover;
 font-family: 'Roboto Slab', serif;
