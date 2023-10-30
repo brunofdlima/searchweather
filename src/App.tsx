@@ -70,7 +70,6 @@ const App = () => {
         <Response>
           {previsao ? (
             <div>
-              <h1>{}</h1>
               <ResponseTitle>{previsao.weather[0].description}</ResponseTitle>
               <ResponseTemp>
                 <Left>
