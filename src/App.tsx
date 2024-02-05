@@ -52,7 +52,7 @@ const App = () => {
     <Content>
       <Form>
         <Before>
-          <Title>Search Time:</Title>
+          <Title>Search Weather:</Title>
           <div>
             <Input
               id="entrada"
