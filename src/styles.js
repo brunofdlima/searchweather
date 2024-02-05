@@ -1,10 +1,12 @@
 import styled from 'styled-components';
-import img from './pictures/backtemp.jpg';
+import img from './pictures/wallpapper.jpg';
 
 export const Content = styled.div`
 height: 100vh;
+background: url(${img});
 background-size: cover;
 font-family: 'Roboto Slab', serif;
+color: white;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -12,7 +14,8 @@ align-items: center;
 
 export const Form = styled.div`
 width: 50rem;
-background-color: #85aab0;
+padding: 40px 15px;
+background-color: #386179;
 font-family: 'Roboto Slab', serif;
 border-radius: 0.625rem;
 align-items: center;
