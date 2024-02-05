@@ -98,3 +98,6 @@ export const Temp1 = styled.div`
 font-weight: bold;
 font-size: 2.5rem;
 `;
+
+export const Container = styled.div`
+`;

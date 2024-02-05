@@ -16,6 +16,7 @@ import {
   Title,
   Button,
   Input,
+  Container,
 } from "./styles";
 
 const App = () => {
@@ -69,7 +70,7 @@ const App = () => {
 
         <Response>
           {previsao ? (
-            <div>
+            <Container>
               <ResponseTitle>{previsao.weather[0].description}</ResponseTitle>
               <ResponseTemp>
                 <Left>
@@ -93,7 +94,7 @@ const App = () => {
                   </div>
                 </Equal>
               </ResponseTemp>
-            </div>
+            </Container>
           ) : null}
         </Response>
       </Form>
