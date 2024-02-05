@@ -52,13 +52,13 @@ const App = () => {
     <Content>
       <Form>
         <Before>
-          <Title>Digite a cidade desejada:</Title>
+          <Title>Search Time:</Title>
           <div>
             <Input
               id="entrada"
               classname="searchCity"
               value={cidade}
-              placeholder="Ex: Fortaleza"
+              placeholder="Digite a cidade"
               onChange={handleChange}
             />
             <Button onClick={handleSearch}>
